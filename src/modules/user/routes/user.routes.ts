@@ -4,7 +4,7 @@ import { Router } from 'express';
 import { UserController } from '../controllers/user.controller';
 import { updateProfileSchema } from '../validators/user.validator';
 
-const router = Router();
+const router: Router = Router();
 
 /**
  * @swagger
